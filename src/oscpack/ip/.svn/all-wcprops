@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip
+END
+IpEndpointName.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/IpEndpointName.h
+END
+TimerListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/TimerListener.h
+END
+PacketListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/PacketListener.h
+END
+NetworkingUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/NetworkingUtils.h
+END
+IpEndpointName.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/IpEndpointName.cpp
+END
+UdpSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/fingercount/!svn/ver/2/KfcServer/src/oscpack/ip/UdpSocket.h
+END

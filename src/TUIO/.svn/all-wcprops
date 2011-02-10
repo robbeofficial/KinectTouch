@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO
+END
+TuioObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioObject.h
+END
+TuioPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioPoint.h
+END
+TuioContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioContainer.h
+END
+TuioServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioServer.h
+END
+TuioListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioListener.h
+END
+TuioClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioClient.cpp
+END
+TuioCursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioCursor.h
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/Doxyfile
+END
+TuioTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioTime.cpp
+END
+TuioClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioClient.h
+END
+TuioTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioTime.h
+END
+TuioServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/fingercount/!svn/ver/2/KfcServer/src/TUIO/TuioServer.cpp
+END
