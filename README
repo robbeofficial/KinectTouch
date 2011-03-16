@@ -1,4 +1,4 @@
-import into eclipse of build like this:
+import into eclipse or build like this:
 
 cd Debug
 make
