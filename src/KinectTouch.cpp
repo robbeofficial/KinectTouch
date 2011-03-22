@@ -155,6 +155,9 @@ int main() {
 
 		// update 16 bit depth matrix
 		depth.data = (uchar*) xnDepthGenerator.GetDepthMap();
+		//xnImgeGenertor.GetGrayscale8ImageMap()
+
+
 
 		// update rgb image
 		//rgb.data = (uchar*) xnImgeGenertor.GetRGB24ImageMap(); // segmentation fault here
