@@ -123,7 +123,7 @@ int main() {
 	Mat1s background(480, 640);
 	vector<Mat1s> buffer(nBackgroundTrain);
 
-	initOpenNI("niConfig.xml");
+	initOpenNI("../niConfig.xml");
 
 	// TUIO server object
 	TuioServer* tuio;
