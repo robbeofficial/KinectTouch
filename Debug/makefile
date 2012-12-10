@@ -48,7 +48,7 @@ all: KinectTouch
 KinectTouch: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -Xlinker `pkg-config --libs opencv` -o"KinectTouch" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -Xlinker `pkg-config --libs opencv` -o KinectTouch $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
