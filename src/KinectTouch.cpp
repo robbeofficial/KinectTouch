@@ -35,8 +35,10 @@ using namespace xn;
 	}
 
 // TUIO
+/*
 #include "TuioServer.h"
 using namespace TUIO;
+*/
 
 // TODO smoothing using kalman filter
 
@@ -123,9 +125,10 @@ int main() {
 	Mat1s background(480, 640);
 	vector<Mat1s> buffer(nBackgroundTrain);
 
-	initOpenNI("niConfig.xml");
+	initOpenNI("../niConfig.xml");
 
 	// TUIO server object
+	/*
 	TuioServer* tuio;
 	if (localClientMode) {
 		tuio = new TuioServer();
@@ -133,6 +136,7 @@ int main() {
 		tuio = new TuioServer("192.168.0.2",3333,false);
 	}
 	TuioTime time;
+	*/
 
 	// create some sliders
 	namedWindow(windowName);
@@ -188,6 +192,7 @@ int main() {
 		}
 
 		// send TUIO cursors
+		/*
 		time = TuioTime::getSessionTime();
 		tuio->initFrame(time);
 
@@ -206,6 +211,7 @@ int main() {
 		tuio->stopUntouchedMovingCursors();
 		tuio->removeUntouchedStoppedCursors();
 		tuio->commitFrame();
+		*/
 
 		// draw debug frame
 		depth.convertTo(depth8, CV_8U, 255 / debugFrameMaxDepth); // render depth to debug frame

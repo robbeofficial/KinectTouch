@@ -1,6 +1,0 @@
-import into eclipse or build like this:
-
-cd Debug
-make
-cd ..
-./Debug/KinectTouch
