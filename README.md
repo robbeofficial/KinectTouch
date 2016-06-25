@@ -9,7 +9,7 @@ Prerequisites
   - OpenNI 1.x, NITE and SensorKinect
     - [Bundelded download](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip) as part of [SimpleOpenNI](https://code.google.com/archive/p/simple-openni/) available
     - Ubuntu installation
-        ```bash
+        ```
         wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip
         unzip OpenNI_NITE_Installer-Linux64-0.27.zip
         cd OpenNI_NITE_Installer-Linux64-0.27/
@@ -19,12 +19,12 @@ Prerequisites
         ```
   - [OpenCV](http://opencv.org/)
     - Ubuntu installation
-        ```bash
+        ```
         sudo apt-get libopencv-dev
         ```
   - [CMake](https://cmake.org/)
     - Ubuntu installation
-        ```bash
+        ```
         sudo apt-get install cmake
         ```
 
