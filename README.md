@@ -18,10 +18,7 @@ sudo ./NITE-Bin-Dev-Linux-x64-v1.5.2.21/install.sh
 sudo ./kinect/Sensor-Bin-Linux-x64-v5.1.2.1/install.sh
 ```
   - [OpenCV](http://opencv.org/)
-    - Ubuntu installation
-        ```
-        sudo apt-get libopencv-dev
-        ```
+    - Ubuntu installation `sudo apt-get libopencv-dev`
   - [CMake](https://cmake.org/)
     - Ubuntu installation
         ```
