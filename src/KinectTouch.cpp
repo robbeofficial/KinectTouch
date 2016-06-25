@@ -59,9 +59,10 @@ bool mousePressed = false;
 
 int initOpenNI(const XnChar* fname) {
 	XnStatus nRetVal = XN_STATUS_OK;
+	ScriptNode scriptNode;
 
 	// initialize context
-	nRetVal = xnContext.InitFromXmlFile(fname);
+	nRetVal = xnContext.InitFromXmlFile(fname, scriptNode);
 	CHECK_RC(nRetVal, "InitFromXmlFile");
 
 	// initialize depth generator
@@ -153,7 +154,7 @@ int main() {
 	}
 	average(buffer, background);
 
-	while ( waitKey(1) != 27 ) {
+	while ( (char) waitKey(1) != (char) 27 ) {
 		// read available data
 		xnContext.WaitAndUpdateAll();
 
