@@ -12,7 +12,7 @@ Prerequisites
 ```bash
 wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip
 unzip OpenNI_NITE_Installer-Linux64-0.27.zip
-cd OpenNI_NITE_Installer-Linux64-0.27/
+cd OpenNI_NITE_Installer-Linux64-0.27/OpenNI-Bin-Dev-Linux-x64-v1.5.4.0/
 sudo ./install.sh
 cd ../NITE-Bin-Dev-Linux-x64-v1.5.2.21/
 sudo ./install.sh
