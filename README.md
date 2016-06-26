@@ -13,9 +13,11 @@ Prerequisites
 wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip
 unzip OpenNI_NITE_Installer-Linux64-0.27.zip
 cd OpenNI_NITE_Installer-Linux64-0.27/
-sudo ./OpenNI-Bin-Dev-Linux-x64-v1.5.4.0/install.sh
-sudo ./NITE-Bin-Dev-Linux-x64-v1.5.2.21/install.sh
-sudo ./kinect/Sensor-Bin-Linux-x64-v5.1.2.1/install.sh
+sudo ./install.sh
+cd ../NITE-Bin-Dev-Linux-x64-v1.5.2.21/
+sudo ./install.sh
+cd ../kinect/Sensor-Bin-Linux-x64-v5.1.2.1/
+sudo ./install.sh
 ```
   - [OpenCV](http://opencv.org/)
     - Ubuntu installation 
