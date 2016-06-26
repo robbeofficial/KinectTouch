@@ -7,7 +7,7 @@ Turns any surface into a giant touchpad using kinect
 Prerequisites
 ==
   - OpenNI 1.x, NITE and SensorKinect
-    - [Bundelded download](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip) as part of [SimpleOpenNI](https://code.google.com/archive/p/simple-openni/) available
+    - [Bundled download](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip) as part of [SimpleOpenNI](https://code.google.com/archive/p/simple-openni/) available
     - Ubuntu installation
 ```bash
 wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/simple-openni/OpenNI_NITE_Installer-Linux64-0.27.zip
@@ -47,5 +47,7 @@ TODOs
 ==
  - Integrate [TUIO](https://github.com/mkalten/TUIO11_CPP) as a submodule
  - Integrate [OpenNI](https://github.com/OpenNI) and [SensorKinect](https://github.com/avin2/SensorKinect) submodules or switch to [libfreenect](https://github.com/OpenKinect/libfreenect)
+ - Add Kinect 2 support
+ - Tracking / filtering of touch points 
 
 
