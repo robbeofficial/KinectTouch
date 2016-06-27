@@ -22,7 +22,7 @@ sudo ./install.sh
   - [OpenCV](http://opencv.org/)
     - Ubuntu installation 
 ```bash 
-sudo apt-get libopencv-dev
+sudo apt-get install libopencv-dev
 ```
   - [CMake](https://cmake.org/)
     - Ubuntu installation
